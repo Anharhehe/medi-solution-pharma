@@ -203,7 +203,7 @@ const Header = () => {
               </div>
 
               <button
-                onClick={() => handleMobileNavigation('/team')}
+                onClick={() => handleMobileNavigation('/ourteam')}
                 className="text-gray-700 hover:text-green-800 px-3 py-4 text-lg font-medium transition-colors duration-200 hover:bg-gray-50 rounded-lg text-left"
               >
                 Our Team
