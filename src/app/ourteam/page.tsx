@@ -39,7 +39,8 @@ const departmentColors = {
   Development: "from-green-500 to-teal-500",
   Quality: "from-yellow-500 to-orange-500",
   Technology: "from-gray-700 to-gray-900",
-  Marketing: "from-pink-500 to-rose-500"
+  SalesMarketing: "from-pink-500 to-rose-500",
+  MediaMarketing: "from-pink-500 to-rose-500"
 };
 
 // Helper function to categorize team members
@@ -75,8 +76,19 @@ const categorizeTeamMembers = (members: TeamMember[]) => {
     member.position.toLowerCase().includes('accountant') ||
     member.position.toLowerCase().includes('finance')
   );
+
+  const mediaMarketing = members.filter(member => 
+    member.department.toLowerCase().includes('media') ||
+    member.department.toLowerCase().includes('social media') ||
+    member.position.toLowerCase().includes('media') ||
+    member.position.toLowerCase().includes('brand') ||
+    member.position.toLowerCase().includes('seo') ||
+    member.position.toLowerCase().includes('content creator') ||
+    member.position.toLowerCase().includes('social media')
+  );
+
   
-  return { heads, salesMarketing, logistics, accountsFinance };
+  return { heads, salesMarketing, logistics, accountsFinance, mediaMarketing};
 };
 
 export default function OurTeamPage() {
@@ -90,7 +102,7 @@ export default function OurTeamPage() {
   const [currentImageIndex1, setCurrentImageIndex1] = useState(0);
   const [isZoomedIn, setIsZoomedIn] = useState(true);
   const [isVisible, setIsVisible] = useState(false);
-  const images = [ '/team2.png', '/team3.png', '/team4.png'];
+  const images = [ '/team2.jpg', '/team3.jpg', '/team4.jpg'];
 
 
   useEffect(() => {
@@ -157,8 +169,8 @@ const prevImage = () => {
   };
 
   const stats = [
-    { number: 7, label: "Team Members", icon: Users },
-    { number: 5, label: "Years Combined Experience", icon: Award },
+    { number: 30, label: "Team Members", icon: Users },
+    { number: 6, label: "Years Combined Experience", icon: Award },
     { number: 50, label: "Projects Completed", icon: Briefcase },
     { number: 15, label: "Awards Won", icon: Star }
   ];
@@ -274,7 +286,7 @@ const prevImage = () => {
   );
 
   // Categorize team members
-  const { heads, salesMarketing, logistics, accountsFinance } = categorizeTeamMembers(teamMembers);
+  const { heads, salesMarketing, logistics, accountsFinance, mediaMarketing } = categorizeTeamMembers(teamMembers);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white to-blue-50 text-gray-800">
@@ -552,6 +564,52 @@ const prevImage = () => {
                 </div>
               </div>
             )}
+
+            {/* Media Marketing */}
+            {mediaMarketing.length > 0 && (
+              <div className="group">
+                <div 
+                  className="bg-[#95D5B2] hover:bg-[#8BC5A3] transition-all duration-300 p-6 cursor-pointer shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                  onClick={() => toggleSection('social media')}
+                >
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center">
+                      <div className="text-2xl mr-3"></div>
+                      <h2 className="text-xl font-bold text-gray-800 pr-4">Social Media Marketing</h2>
+                    </div>
+                    <div className="flex items-center space-x-4">
+                      <div className="inline-flex items-center bg-white/30 backdrop-blur-sm rounded-full px-3 py-1">
+                        <span className="text-gray-800 font-medium text-sm">{mediaMarketing.length} Members</span>
+                      </div>
+                      <div 
+                        className="flex-shrink-0 w-8 h-8 bg-white/30 rounded-full flex items-center justify-center transition-transform duration-300"
+                        style={{ transform: expandedSection === 'social media' ? 'rotate(180deg)' : 'rotate(0deg)' }}
+                      >
+                        <svg className="w-5 h-5 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div 
+                  className="overflow-hidden transition-all duration-500 ease-in-out"
+                  style={{
+                    maxHeight: expandedSection === 'social media' ? '2000px' : '0px',
+                    opacity: expandedSection === 'social media' ? '1' : '0'
+                  }}
+                >
+                  <div className="bg-white mt-2 p-6 shadow-lg border-l-4 border-[#95D5B2]">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                      {mediaMarketing.map((member, index) => (
+                        <TeamMemberCard key={member.id} member={member} index={index} />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+
           </div>
 
           

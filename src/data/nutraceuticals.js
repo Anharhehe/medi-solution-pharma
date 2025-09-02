@@ -149,12 +149,12 @@ const nutraceuticals = [
     image2: "/bromochick2.jpg",
     price: 5382,
     currency: "PKR",
-    packSize: "100ml",
+    packSize: "1000ml",
     dosageForm: "Oral Solution",
     targetAnimals: ["Poultry"],
     composition: {
-      bromhexine: "50000 mg per 100ml",
-      tartaricAcid: "200 mg per 100ml"
+      bromhexine: "50000 mg per 1000ml",
+      tartaricAcid: "200 mg per 1000ml"
     },
     description: "Bromo chick is a specialized respiratory support formula designed specifically for poultry. Bromhexine helps thin mucus secretions while tartaric acid provides additional respiratory support, making it ideal for young chicks and growing birds.",
     indications: ["Respiratory mucus management", "Airway clearance", "Respiratory comfort in chicks"],
@@ -249,17 +249,17 @@ const nutraceuticals = [
     image2: "/fimbo2.jpg",
     price: 2325,
     currency: "PKR",
-    packSize: "100g",
+    packSize: "1000g",
     dosageForm: "Oral Powder",
     targetAnimals: ["Poultry", "Livestock"],
     composition: {
-      potassiumCitrate: "18000 mg per 100g",
-      sodiumCitrate: "12000 mg per 100g",
-      vitaminB1: "30 mg per 100g",
-      vitaminB2: "15 mg per 100g",
-      nicotinamide: "320 mg per 100g",
-      menadioneBisulphate: "115 mg per 100g",
-      vitaminC: "1100 mg per 100g"
+      potassiumCitrate: "18000 mg per 1000g",
+      sodiumCitrate: "12000 mg per 1000g",
+      vitaminB1: "30 mg per 1000g",
+      vitaminB2: "15 mg per 1000g",
+      nicotinamide: "320 mg per 1000g",
+      menadioneBisulphate: "115 mg per 1000g",
+      vitaminC: "1100 mg per 1000g"
     },
     description: "Fimbo is a balanced electrolyte and vitamin supplement designed to maintain proper fluid balance and support metabolic functions. This formulation is ideal for stress conditions, heat stress, and recovery support.",
     indications: ["Electrolyte balance", "Heat stress management", "Recovery support", "Vitamin B complex supplementation"],
@@ -502,15 +502,15 @@ const nutraceuticals = [
     image: "/mediadek.jpg",
     price: 10022,
     currency: "PKR",
-    packSize: "1000ml",
+    packSize: "5000ml",
     dosageForm: "Oral Solution",
     targetAnimals: ["Poultry", "Livestock", "Swine"],
     composition: {
-      vitaminA: "6,500,000 IU per 1000ml",
-      vitaminD3: "350,000 IU per 1000ml",
-      vitaminE: "1200 mg per 1000ml",
-      vitaminK3: "4500 mg per 1000ml",
-      vitaminC: "10,000 mg per 1000ml"
+      vitaminA: "6,500,000 IU per 5000ml",
+      vitaminD3: "350,000 IU per 5000ml",
+      vitaminE: "1200 mg per 5000ml",
+      vitaminK3: "4500 mg per 5000ml",
+      vitaminC: "10,000 mg per 5000ml"
     },
     description: "Medi Adek is a comprehensive fat-soluble and water-soluble vitamin combination providing essential nutrients for optimal animal health. This balanced formulation supports immune function, bone development, and antioxidant protection.",
     indications: ["Comprehensive vitamin supplementation", "Immune support", "Bone health", "Antioxidant protection"],

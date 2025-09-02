@@ -10,11 +10,11 @@ const premixes = [
     image2: "/aclinco2.jpg",
     price: 40293,
     currency: "PKR",
-    packSize: "100g",
+    packSize: "25kg",
     dosageForm: "Premix Powder",
     targetAnimals: ["Poultry", "Livestock", "Swine"],
     composition: {
-      lincomycineHCL: "4.4g per 100g (USP specification)"
+      lincomycineHCL: "4.4g per 1000g (USP specification)"
     },
     description:
       "Aclinco is a premium premix containing Lincomycine HCL, designed for the prevention and treatment of bacterial infections in poultry and livestock. Its high purity formulation ensures consistent performance and rapid absorption.",
@@ -41,7 +41,7 @@ const premixes = [
     image2: "/medifix2.jpg",
     price: 25042,
     currency: "PKR",
-    packSize: "1000g",
+    packSize: "25kg",
     dosageForm: "Premix Powder",
     targetAnimals: ["Poultry", "Livestock", "Swine"],
     composition: {
@@ -82,7 +82,7 @@ const premixes = [
     image2: "/vigogp2.jpg",
     price: 25715,
     currency: "PKR",
-    packSize: "1000g",
+    packSize: "25kg",
     dosageForm: "Premix Powder",
     targetAnimals: ["Poultry", "Livestock", "Swine"],
     composition: {
@@ -114,7 +114,7 @@ const premixes = [
     image: "/elantox.png",
     price: 18558,
     currency: "PKR",
-    packSize: "1000g",
+    packSize: "25kg",
     dosageForm: "Premix Powder",
     targetAnimals: ["Poultry", "Livestock", "Swine"],
     composition: {

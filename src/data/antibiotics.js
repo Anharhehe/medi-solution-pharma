@@ -76,7 +76,7 @@ const antibiotics = [
     image2: "/acmecolifox2.jpg",
     price: 5658,
     currency: "PKR",
-    packSize: "100ml",
+    packSize: "1000ml",
     dosageForm: "Oral Solution",
     targetAnimals: ["Poultry", "Rabbits", "Fish"],
     composition: {
@@ -107,11 +107,11 @@ const antibiotics = [
     image2: "/acmecol2.jpg",
     price: 4886,
     currency: "PKR",
-    packSize: "100g",
+    packSize: "1000g",
     dosageForm: "Oral Powder",
     targetAnimals: ["Poultry", "Swine", "Calves"],
     composition: {
-      colistinSulphate: "520 MIU per 100g"
+      colistinSulphate: "520 MIU per 1000g"
     },
     description: "Acme Col 52 is a high-potency colistin formulation designed as a last-resort treatment for multi-drug resistant gram-negative bacterial infections. Its concentrated formula provides maximum therapeutic effect against resistant E.coli, Salmonella, and Pseudomonas strains when other antibiotics fail.",
     indications: ["MDR gram-negative infections", "Resistant E.coli enteritis", "Pseudomonas infections", "Last-line therapy"],
@@ -173,8 +173,8 @@ const antibiotics = [
     image2: "/faenro2.jpg",
     price: 5239,
     currency: "PKR",
-    packSize: "500ml",
-    dosageForm: "Injectable Solution",
+    packSize: "1000ml",
+    dosageForm: "Powder",
     targetAnimals: ["Cattle", "Sheep", "Goats", "Poultry"],
     composition: {
       enrofloxacin: "20% w/v"
@@ -204,14 +204,14 @@ const antibiotics = [
     image2: "/medlimox2.jpg",
     price: 7293,
     currency: "PKR",
-    packSize: "100g",
+    packSize: "1000g",
     dosageForm: "Oral Powder",
     targetAnimals: ["Poultry", "Small Ruminants", "Rabbits"],
     composition: {
-      amoxicillinTrihydrate: "10g per 100g",
-      lincomycinHCl: "5g per 100g",
-      colistinSulphate: "50 MIU per 100g",
-      bromhexineHCl: "0.5g per 100g"
+      amoxicillinTrihydrate: "10g per 1000g",
+      lincomycinHCl: "5g per 1000g",
+      colistinSulphate: "50 MIU per 1000g",
+      bromhexineHCl: "0.5g per 1000g"
     },
     description: "Medlimox B represents advanced multi-modal therapy combining beta-lactam, lincosamide, and polymyxin antibiotics with mucolytic support. This sophisticated formulation tackles complex mixed infections while promoting respiratory clearance, making it particularly effective for challenging cases involving multiple pathogens and respiratory compromise.",
     indications: ["Mixed bacterial infections", "Respiratory tract infections with mucus", "Secondary bacterial complications", "Multi-pathogen outbreaks"],

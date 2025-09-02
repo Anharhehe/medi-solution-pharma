@@ -10,7 +10,7 @@ const monoglycerides = [
     image2:"/elanc122.jpg",
     price: 26275,
     currency: "PKR",
-    packSize: "5 Ltr",
+    packSize: "25 Ltr",
     dosageForm: "Liquid",
     targetAnimals: ["Poultry", "Livestock", "Swine"],
     composition: {
@@ -41,7 +41,7 @@ const monoglycerides = [
     image2: "/elanac342.jpg",
     price: 22258,
     currency: "PKR",
-    packSize: "5 Ltr",
+    packSize: "25 Ltr",
     dosageForm: "Liquid",
     targetAnimals: ["Poultry", "Livestock", "Swine"],
     composition: {

@@ -125,9 +125,9 @@ export default function Home() {
                 Welcome to Medi Solution Pharma
               </h1>
               <p className="text-xl text-gray-100 mb-8 max-w-2xl mx-auto drop-shadow-md">
-                Your trusted partner in healthcare solutions. We provide
-                comprehensive medical services and innovative healthcare
-                technology.
+                Your trusted partner in poultry healthcare solutions. We provide
+                comprehensive veterinary poultry services with innovative 
+                technologies.
               </p>
             </div>
 

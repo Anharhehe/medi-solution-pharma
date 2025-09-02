@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Medi Solution Pharma - Your Healthcare Solution',
-  description: 'Medi Solution Pharma provides quality pharmaceutical products and healthcare solutions. Trusted healthcare partner for all your medical needs.',
+  title: 'Medi Solution Pharma - a new version',
+  description: 'Medi Solution Pharma provides quality pharmaceutical products and poultry health solutions. Trusted healthcare partner for all your poultry needs.',
   
   // Open Graph metadata (for Facebook, LinkedIn, WhatsApp, etc.)
   openGraph: {
@@ -66,8 +66,8 @@ export const metadata: Metadata = {
   // Icons
   icons: {
     icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
   },
   
   // Verification (add if you have these)

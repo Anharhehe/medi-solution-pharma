@@ -157,8 +157,8 @@ const prevImage = () => {
   };
 
   const stats = [
-    { number: 7, label: "Team Members", icon: Users },
-    { number: 5, label: "Years Combined Experience", icon: Award },
+    { number: 30, label: "Team Members", icon: Users },
+    { number: 6, label: "Years Combined Experience", icon: Award },
     { number: 50, label: "Projects Completed", icon: Briefcase },
     { number: 15, label: "Awards Won", icon: Star }
   ];
