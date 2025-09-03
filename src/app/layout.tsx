@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   
   // Open Graph metadata (for Facebook, LinkedIn, WhatsApp, etc.)
   openGraph: {
-    title: 'Medi Solution Pharma - Your Healthcare Solution',
-    description: 'Medi Solution Pharma provides quality pharmaceutical products and healthcare solutions. Trusted healthcare partner for all your medical needs.',
+    title: 'Medi Solution Pharma - a new version',
+    description: 'Medi Solution Pharma provides quality pharmaceutical products and poultry health solutions. Trusted healthcare partner for all your poultry needs.',
     url: 'https://medisolutionpharma.com',
     siteName: 'Medi Solution Pharma',
     images: [
@@ -39,8 +39,8 @@ export const metadata: Metadata = {
   // Twitter metadata
   twitter: {
     card: 'summary_large_image',
-    title: 'Medi Solution Pharma - Your Healthcare Solution',
-    description: 'Medi Solution Pharma provides quality pharmaceutical products and healthcare solutions. Trusted healthcare partner for all your medical needs.',
+    title: 'Medi Solution Pharma - a new version',
+    description: 'Medi Solution Pharma provides quality pharmaceutical products and poultry health solutions. Trusted healthcare partner for all your poultry needs.',
     images: ['https://medisolutionpharma.com/images/logo-social.jpg'], // Replace with your actual image URL
   },
   
