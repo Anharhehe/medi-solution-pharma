@@ -3,6 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { LoadingProvider } from "../contexts/LoadingContext";
+import LoadingWrapper from "../components/LoadingWrapper";
+import NavigationEvents from "../components/NavigationEvents";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -87,14 +90,22 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
       >
-        {/* Header - Fixed at top */}
-        <Header />
-        
-        {/* Main content */}
-        <main className="flex-grow">{children}</main>
-        
-        {/* Footer - Always at bottom */}
-        <Footer />
+        <LoadingProvider>
+          {/* Navigation Events Handler */}
+          <NavigationEvents />
+          
+          {/* Loading Spinner */}
+          <LoadingWrapper />
+          
+          {/* Header - Fixed at top */}
+          <Header />
+          
+          {/* Main content */}
+          <main className="flex-grow">{children}</main>
+          
+          {/* Footer - Always at bottom */}
+          <Footer />
+        </LoadingProvider>
       </body>
     </html>
   );

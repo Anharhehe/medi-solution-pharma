@@ -50,7 +50,7 @@ const teamMembers = [
     "name": "Mr. Sufyan Majeed",
     "position": "Managing Director",
     "department": "Executive Management",
-    "image": "/sufyan.jpg",
+    "image": "/sufyan.png",
     "bio": "Providing strategic direction and leadership to ensure sustainable growth, operational excellence, and corporate success.",
     "experience": "15+ years",
     "location": "Gujranwala, Pakistan",
