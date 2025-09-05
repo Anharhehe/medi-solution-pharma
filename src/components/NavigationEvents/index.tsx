@@ -1,18 +1,17 @@
 'use client'
 
 import { useEffect } from 'react'
-import { usePathname, useSearchParams } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import { useLoading } from '../../contexts/LoadingContext'
 
 export default function NavigationEvents() {
   const pathname = usePathname()
-  const searchParams = useSearchParams()
   const { setIsLoading } = useLoading()
 
   useEffect(() => {
     // Hide loading when route changes complete
     setIsLoading(false)
-  }, [pathname, searchParams, setIsLoading])
+  }, [pathname, setIsLoading])
 
   useEffect(() => {
     // Handle link clicks to show loading
