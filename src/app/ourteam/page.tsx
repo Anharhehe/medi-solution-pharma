@@ -102,7 +102,7 @@ export default function OurTeamPage() {
   const [currentImageIndex1, setCurrentImageIndex1] = useState(0);
   const [isZoomedIn, setIsZoomedIn] = useState(true);
   const [isVisible, setIsVisible] = useState(false);
-  const images = [ '/team2.jpg', '/team3.jpg', '/team4.jpg'];
+  const images = [ '/team2.png', '/team3.jpg', '/team4.jpg'];
 
 
   useEffect(() => {

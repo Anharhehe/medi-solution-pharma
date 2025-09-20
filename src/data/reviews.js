@@ -48,22 +48,10 @@ const reviews = [
     comment: "Professional packaging and quality products. My veterinarian also recommends these medicines."
   },
   {
-    name: "Mukhtar Khan",
-    stars: 4.8,
-    time: "15 minutes ago",
-    comment: "Excellent for treating Newcastle disease. Quick recovery and no side effects observed."
-  },
-  {
     name: "Bilal Ahmad",
     stars: 4.6,
     time: "3 days ago",
     comment: "Good experience with their liver tonic. My chickens are more active and healthy now."
-  },
-  {
-    name: "Faris Shafi",
-    stars: 4.3,
-    time: "2 hours ago",
-    comment: "Decent products but delivery could be faster. Overall satisfied with the quality."
   },
   {
     name: "Kamran Sheikh",
@@ -108,34 +96,16 @@ const reviews = [
     comment: "Trusted name in poultry health. The multivitamins are particularly effective for young chicks."
   },
   {
-    name: "Faisal Khan",
-    stars: 4.8,
-    time: "10 minutes ago",
-    comment: "Outstanding results with their probiotic products. Improved gut health and feed conversion ratio."
-  },
-  {
     name: "Rubbaan Sultan",
     stars: 4.3,
     time: "6 days ago",
     comment: "Good products but pricing could be more competitive. Quality is definitely there."
   },
   {
-    name: "Waseem Abbas",
-    stars: 4.6,
-    time: "2 hours ago",
-    comment: "Effective medicines for viral infections. Quick action and good customer support."
-  },
-  {
     name: "Shaukat Parvaiz",
     stars: 4.9,
     time: "1 week ago",
     comment: "Best investment for poultry health! Reduced medication costs and improved flock performance."
-  },
-  {
-    name: "Adnan Ali",
-    stars: 4.7,
-    time: "35 minutes ago",
-    comment: "Professional service and quality products. The dewormers are very effective."
   },
   {
     name: "Rashid Hussain",
@@ -148,12 +118,6 @@ const reviews = [
     stars: 4.4,
     time: "25 minutes ago",
     comment: "Satisfied with the product quality. The stress relievers work well during hot weather."
-  },
-  {
-    name: "Nasir Mahmood",
-    stars: 4.6,
-    time: "1 day ago",
-    comment: "Reliable products for poultry nutrition. Good results with feed additives."
   },
   {
     name: "Amir Siddique",
@@ -172,12 +136,6 @@ const reviews = [
     stars: 4.8,
     time: "15 minutes ago",
     comment: "Top quality medicines! The hepatic tonics are particularly effective for liver support."
-  },
-  {
-    name: "Saad Malik",
-    stars: 4.5,
-    time: "1 week ago",
-    comment: "Good results with reproductive health products. Improved fertility rates in breeding stock."
   },
   {
     name: "Jameel Ahmed",
@@ -222,12 +180,6 @@ const reviews = [
     comment: "Great experience with their nutritional products. Improved feed conversion efficiency."
   },
   {
-    name: "Parvaiz Sultan",
-    stars: 4.3,
-    time: "1 week ago",
-    comment: "Good products but could use better technical literature. Overall satisfied."
-  },
-  {
     name: "Rizwan Khan",
     stars: 4.8,
     time: "20 minutes ago",
@@ -238,12 +190,6 @@ const reviews = [
     stars: 4.6,
     time: "3 days ago",
     comment: "Professional service and quality medicines. The vitamin complexes are very effective."
-  },
-  {
-    name: "Hamid Raza",
-    stars: 4.4,
-    time: "1 hour ago",
-    comment: "Good experience overall. The probiotics help maintain good gut health in flocks."
   },
   {
     name: "Usman Farooq",
@@ -306,22 +252,10 @@ const reviews = [
     comment: "Reliable supplier with consistent quality. Their feed additives improve growth performance."
   },
   {
-    name: "Danish Ahmed",
-    stars: 4.7,
-    time: "1 hour ago",
-    comment: "Top-quality medicines with professional service. The vaccines are very effective."
-  },
-  {
     name: "Mohsin Raza",
     stars: 4.8,
     time: "15 minutes ago",
     comment: "Highly effective medicines! Significant improvement in broiler performance and health."
-  },
-  {
-    name: "Amir Hussain",
-    stars: 4.4,
-    time: "2 hours ago",
-    comment: "Satisfied with product quality. The dewormers are effective against internal parasites."
   },
   {
     name: "Shujah Jutt",
@@ -442,12 +376,6 @@ const reviews = [
     stars: 4.6,
     time: "3 hours ago",
     comment: "Reliable medicines with consistent effectiveness. Good customer support and guidance."
-  },
-  {
-    name: "Anwar Ali",
-    stars: 4.7,
-    time: "15 minutes ago",
-    comment: "Excellent quality control and professional service. The probiotics are very effective."
   },
   {
     name: "Fiaz Ahmad",
@@ -594,12 +522,6 @@ const reviews = [
     comment: "Highly effective medicines! Reduced disease outbreaks and improved overall farm profitability."
   },
   {
-    name: "Mukhtar Ali",
-    stars: 4.4,
-    time: "50 minutes ago",
-    comment: "Satisfied with product quality. The dewormers are effective against internal parasites."
-  },
-  {
     name: "Saeed Abbas",
     stars: 4.7,
     time: "30 minutes ago",
@@ -611,7 +533,7 @@ const reviews = [
     time: "4 days ago",
     comment: "Highly recommend to fellow farmers! Significant improvement in flock performance and health."
   },
-{
+  {
     name: "Ahmed Ali",
     stars: 4.8,
     time: "2 hours ago",
@@ -640,12 +562,6 @@ const reviews = [
     stars: 4.7,
     time: "1 week ago",
     comment: "Impressive quality and timely delivery. Professional service throughout."
-  },
-  {
-    name: "Usman Tariq",
-    stars: 4.4,
-    time: "12 hours ago",
-    comment: "Nice product but could be improved. Still happy with the purchase."
   },
   {
     name: "Bilal Ahmad",
